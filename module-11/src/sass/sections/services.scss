@@ -1,0 +1,122 @@
+.services {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: #555555;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  background-color: rgb(85, 85, 85);
+  width: 3.125rem;
+  height: 0.125rem;
+  margin: 0 auto;
+  margin-top: 1.75rem;
+}
+
+.section-description {
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #555555;
+  text-align: center;
+  margin-bottom: 4.125rem;
+}
+
+.services__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.servicres__list-item {
+  width: 21.875rem;
+  text-align: center;
+}
+
+.services__list-svg-rec {
+  width: 5.375rem;
+  height: 5.375rem;
+  border-radius: 50%;
+  border: 2px solid rgb(221, 221, 221);
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1.375rem;
+}
+
+.services__list-svg {
+  width: 3.3125rem;
+  height: 2.5rem;
+  fill: #c0301c;
+}
+
+.servicres__list-item:hover .services__list-svg-rec {
+  background-color: #c0301c;
+}
+
+.servicres__list-item:hover .services__list-svg {
+  fill: #fff;
+}
+
+/* .servicres__list-item::before {
+    display: block;
+    content: "";
+    width: 5.375rem;
+    height: 5.375rem;
+    border-radius: 50%;
+    border: 2px solid rgb(221, 221, 221);
+    margin: 0 auto;
+    margin-bottom: 1.625rem;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+/* .servicres__list-item:first-child::before {
+    background-image: url("../images/services/fa-support.png");
+}
+
+.servicres__list-item:nth-child(2)::before {
+    background-image: url("../images/services/code.png");
+}
+
+.servicres__list-item:last-child::before {
+    background-image: url("../images/services/fa-support.png");
+} */
+
+.services__list-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #555555;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.services__list-descritpion {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #555555;
+}

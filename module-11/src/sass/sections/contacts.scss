@@ -1,0 +1,219 @@
+.contact__content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.contact {
+  padding-top: 6.125rem;
+  padding-bottom: 6.125rem;
+}
+
+.contact__left-content {
+  width: 14.625rem;
+}
+
+.contact__left-content-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.contact__left-content-link {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: #555555;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.contact__left-content-link span {
+  display: block;
+}
+
+.contact__left-content-item {
+  padding-left: 28px;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.contact__left-content-item:not(:last-child) {
+  margin-bottom: 34px;
+}
+
+.contact__left-content-item_email {
+  background-image: url("../images/contact/fa-envelope-o.png");
+}
+
+.contact__left-content-item_tel {
+  background-image: url("../images/contact/fa-mobile-phone.png");
+}
+
+.contact__left-content-item_geo {
+  background-image: url("../images/contact/fa-map-marker.png");
+}
+
+.contact__form {
+  width: 46rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: #555;
+}
+
+.contact__form-input {
+  border-width: 1px;
+  border-color: rgb(85, 85, 85);
+  border-style: solid;
+  width: 21.75rem;
+  height: 2.625rem;
+  padding-left: 1.125rem;
+}
+
+.contact__form-input:not(:nth-last-child(-n + 2)) {
+  margin-bottom: 1.25rem;
+}
+
+.contact__form-input::-webkit-input-placeholder,
+.contact__textarea::-webkit-input-placeholder {
+  text-transform: uppercase;
+}
+
+.contact__form-input::-moz-placeholder,
+.contact__textarea::-moz-placeholder {
+  text-transform: uppercase;
+}
+
+.contact__form-input:-ms-input-placeholder,
+.contact__textarea:-ms-input-placeholder {
+  text-transform: uppercase;
+}
+
+.contact__form-input::-ms-input-placeholder,
+.contact__textarea::-ms-input-placeholder {
+  text-transform: uppercase;
+}
+
+.contact__form-input::placeholder,
+.contact__textarea::placeholder {
+  text-transform: uppercase;
+}
+
+.contact__form-input:required:focus:valid {
+  outline: 1px solid green;
+}
+
+.contact__form-input[required]:focus:invalid {
+  outline: 1px solid red;
+}
+
+.contact__form-input:focus {
+  outline-offset: -1px;
+}
+
+.contact__textarea {
+  border-width: 1px;
+  border-color: rgb(85, 85, 85);
+  border-style: solid;
+  width: 100%;
+  height: 6.375rem;
+  resize: none;
+  padding-left: 1.125rem;
+  padding-top: 1.125rem;
+}
+
+.contact__btn {
+  border-width: 1px;
+  border-color: rgb(85, 85, 85);
+  border-style: solid;
+  background-color: transparent;
+  width: 10.5rem;
+  height: 2.625rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  margin-right: 2.375rem;
+}
+
+.contact__textarea {
+  margin-bottom: 1.25rem;
+}
+
+.contact__btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contact__btn-description span {
+  color: #c0301c;
+}
+
+
+// .list {
+//   list-style: none;
+
+//   .list-item {
+//     font-size: 20px;
+
+//     .list-link {
+//       text-decoration: none;
+//     }
+//   }
+// }
+
+// .list {
+//   list-style: none;
+// }
+
+// .list .list-item {
+//   font-size: 20px;
+// }
+
+
+// .list {
+//   list-style: none;
+
+//   &__item {
+//     font-size: 30px;
+
+//     &-link {
+//       text-decoration: none;
+//     }
+//   }
+// }
+
+// .list {}
+
+// .list__item {}
+
+// .list__item-link {}

@@ -116,14 +116,6 @@ img {
     padding-top: 34px;
 }
 
-.px {
-    font-size: 2rem;
-}
-
-.rem {
-    font-size: 32px;
-}
-
 .logo__link {
     font-family: var(--main-font);
     font-weight: 700;

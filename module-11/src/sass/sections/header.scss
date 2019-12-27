@@ -1,0 +1,84 @@
+.page-header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .45)), to(rgba(0, 0, 0, .45))), url("../images/bg.jpg");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("../images/bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 48.125rem;
+  padding-top: 34px;
+
+  &__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.75rem;
+  }
+
+  &__description {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3.125rem;
+  }
+
+  &__btn {
+    @include font($main-font, 1rem, 1.5rem);
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    width: 11rem;
+    height: 2.875rem;
+    background-color: transparent;
+    margin: 0 auto;
+  }
+
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi) {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .45)), to(rgba(0, 0, 0, .45))), url("../images/bg@2x.jpg");
+    background-image: -o-linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("../images/bg@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("../images/bg@2x.jpg");
+  }
+}
+
+.logo__link {
+  font-family: var(--main-font);
+  font-weight: 700;
+  /* font-family: "Montserrat", sans-serif; */
+  font-size: 1.5rem;
+  /* font-weight: 700; */
+  line-height: 2.25rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation {
+  @extend %align;
+  margin-bottom: 15.875rem;
+
+  &__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-preferred-size: 33.875rem;
+    flex-basis: 33.875rem;
+
+    &-link {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.5rem;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
